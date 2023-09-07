@@ -6,7 +6,7 @@ on:
 jobs:
   check-application:
     runs-on: ubuntu-latest
-    etrategy:
+    strategy:
       matrix:
         go: ['1.14','1.15']
     steps:
